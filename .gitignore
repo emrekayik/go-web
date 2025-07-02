@@ -1,0 +1,12 @@
+# Node modules & Svelte build
+/frontend/node_modules
+/frontend/build
+/backend/static
+
+# Go binary
+/backend/static
+*.exe
+
+# IDE
+.vscode
+*.swp
