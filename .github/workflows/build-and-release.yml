@@ -35,9 +35,7 @@ jobs:
 
       - name: Build Go binary
         run: |
-          cd backend
-          cd cmd
-          cd web
+          cd backend/cmd/web
           go build -o app .
 
       - name: Upload Release Artifact
